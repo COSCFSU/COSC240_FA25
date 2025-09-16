@@ -66,14 +66,6 @@ di = {1:1,2:2,:3} # dict
 
 
 
-# Last example
-# Get 3 grades, and give the average grade
-mygrades = {
-    "exam1": 0,
-    "exam2": 0,
-    "exam3": 0
-}
-
 
 
 
