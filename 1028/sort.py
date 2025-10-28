@@ -36,13 +36,17 @@ def isSorted(my_list):
 # Start the program.  This syntax means,
 #   it will only run directly (i.e. not when loaded as a module)
 if __name__ == "__main__":
+    # some lists for testing
     a = [5, 1, 9, 2, 4]
     a2 = [89, 87, 32, 11, 44, 23, 99, 21]
+    a3 = [9, 8, 7, 6, 5, 4, 3, 2, 1]
 
-    print("Before sort: ", a2)
-    print(isSorted(a2))
-
-    insertionSort(a2)
+    a = a3 # pick list to test
     
-    print("After sort:  ", a2)
-    print(isSorted(a2))
+    print("Before sort: ", a)
+    print(isSorted(a))
+
+    insertionSort(a)
+    
+    print("After sort:  ", a)
+    print(isSorted(a))
