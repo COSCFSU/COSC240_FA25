@@ -17,7 +17,8 @@ def insertionSort(my_list):
     for i in range(1,n): # go right (we need a variable that stores our starting values
         #print(i)
         current = my_list[i]
-        for j in range(i-1, -1, -1): # go left
+        #for j in range(i-1, -1, -1): # go left
+        for j in range(0,i-1, -1):
             #print(j)
             left = my_list[j]
             if left > current:
